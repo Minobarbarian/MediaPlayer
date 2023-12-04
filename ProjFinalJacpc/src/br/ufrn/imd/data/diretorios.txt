@@ -1,1 +1,2 @@
-file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/diretorios/Vybz/
+file:/C:/Users/ICCPa/git/sodeusnacausa/ProjFinalJacpc/src/br/ufrn/imd/data/diretorios/Orakel/
+file:/C:/Users/ICCPa/git/sodeusnacausa/ProjFinalJacpc/src/br/ufrn/imd/data/diretorios/Vybz/
