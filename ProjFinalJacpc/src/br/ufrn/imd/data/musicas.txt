@@ -1,0 +1,12 @@
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Mournweald%20Encounter.mp3
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Savant%20-%20Cult%20-%20Chop%20It%20(Remix).mp3
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Savant%20-%20Cult%20-%20Chop%20It%20(VIP).mp3
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Savant%20-%20Cult%20-%20Chop%20It.mp3
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Savant%20-%20ISM%20-%20Cry%20For%20Love.mp3
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Savant%20-%20ISM%20-%20Ghetto%20Blastah.mp3
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Savant%20-%20ISM%20-%20Syko.mp3
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Savant%20-%20Orakel%20-%20%20Spacewolfe.mp3
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Savant%20-%20Orakel%20-%20Reggaetron.mp3
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Savant%20-%20Orakel%20-%20Valkyrie.mp3
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Savant%20-%20Vybz%20-%20Boss.mp3
+file:/C:/Users/ICCPa/eclipse-workspace/ProjFinalJacpc/src/br/ufrn/imd/data/musicas/Savant%20-%20Vybz%20-%20Indica.mp3

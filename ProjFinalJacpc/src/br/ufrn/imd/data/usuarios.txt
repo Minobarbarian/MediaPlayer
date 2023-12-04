@@ -1,0 +1,6 @@
+elton;elton@gmail.com;12345678;1
+marlo;marlo@gmail.com;43215678;1
+dodge;dodge@gmail.com;45454545;1
+moria;moria@gmail.com;88888888;2
+moita;moita@gmail.com;77777777;2
+chann;chann@gmail.com;32323232;2
