@@ -1,0 +1,214 @@
+classDiagram
+    Usuario <|-- UsuarioVip
+
+
+    Usuario : +String nome
+    Usuario : +String tipo
+    Usuario : +String login
+    Usuario : +String senha
+    Usuario: +String getNome()
+    Usuario: +String getTipo()
+    Usuario: +String getLogin()
+    Usuario: +String getSenha()
+    Usuario: +void setNome(String nome)
+    Usuario: +void setTipo(String tipo)
+    Usuario: +void setLogin(String login)
+    Usuario: +void setSenha(String senha)
+
+    class Main{
+        +void start(Stage stage)
+        +void main(String[] args)
+    }
+
+    class TelaAjudaController{
+        +Stage ajudaStage
+        +Button btnSair
+        +TextArea taInstrucoes
+        +void setTAInstrucoes()
+        +void sair(ActionEvent event)
+        +void setAjudaStage(Stage aStage)
+    }
+
+    class TelaCadastroUsuarioController{
+        +Label lbNome
+        +Label lbTipo
+        +Label lbLogin
+        +Label lbSenha
+        +Label lbConfSenha
+        +TextField tfNome
+        +TextField tfTipo
+        +TextField tfLogin
+        +Button btnCancelar
+        +Button btnConfirmar
+        +Stage UsuarioStage
+        +Stage UsuarioVipStage
+        +boolean btnConfirmarClicked
+        +UsuarioDAO bdUsuario
+        +UsuarioVipDAO bdUsuarioVip
+        +PasswordField pfSenha
+        +PasswordField pfConfSenha
+        +int validacao()
+        +void validacaoTipo()
+        +void validacaoVazio()
+        +void validacaoSenhaIg()
+        +void validacaoSenhaTam()
+        +void setUsuarioStage(Stage uStage)
+        +void setUsuarioVipStage(Stage uvStage)
+        +void inserirUsuario(ActionEvent event)
+        +void cancelarUsuario(ActionEvent event)
+        +void setBtnConfirmarClicked(boolean btnConfirmarClicked)
+        +boolean isBtnConfirmarClicked()
+    }
+
+    class TelaCriacaoDirController{
+        +File mainDir
+        +Stage mkDirStage
+        +String caminhoDir
+        +Button btnCriar
+        +Button btnCancelar
+        +TextField tfDirNome
+        +void sair()
+        +void setCaminho(String s)
+        +void criar(ActionEvent event)
+        +void setMkDirStage(Stage mkStage)
+        +boolean isIn(String s)
+    }
+
+    class TelaLoginController{
+        +Label lbLogin
+        +Label lbSenha
+        +Button btnEntrar
+        +Button btnCadastrar
+        +boolean btnEntrarClicked
+        +boolean btnCadastrarClicked
+        +TextField tfLogin
+        +PasswordField pfSenha
+        +UsuarioDAO bdUsuario
+        +UsuarioVipDAO bdUsuarioVip
+        +int validacao()
+        +int autenticacao()
+        +void validacaoVazio()
+        +void abrirTelaCadastro(ActionEvent event)
+        +void abrirTelaPrincipal(ActionEvent event)
+        +void setBtnEntrarClicked(boolean btnEntrarClicked)
+        +void setBtnCadastrarClicked(boolean btnCadastrarClicked)
+        +boolean isBtnEntrarClicked()
+        +boolean isBtnCadastrarClicked()
+        
+
+    }
+
+    class TelaPlayerController{
+        +int changedSlider
+        +File mainDir
+        +File playDir
+        +File actualDir
+        +File mainMusicas
+        +File mainPlaylists
+        +File actualPlaylist
+        +Label lbNome
+        +Label lbUsuario
+        +Label lbEscolha
+        +Label lbMusicas
+        +Label lbDiretorio
+        +Label lbPlaylistNome
+        +Stage PlayerStage
+        +Media media
+        +String loginVip
+        +String estaAberto
+        +boolean changing
+        +MediaPlayer medPlayer
+        +AnchorPane ancPaneTelaPlayer
+        +MenuItem mnItemSob
+        +MenuItem mnItemSair
+        +MenuItem mnItemAddDir
+        +MenuItem mnItemAddMus
+        +MenuItem mnItemRemDir
+        +MenuItem mnItemRemMus
+        +MenuItem mnItemAddPlay
+        +MenuItem mnItemRemPlay
+        +MenuItem mnItemAbrirDir
+        +MenuItem mnItemAbrirPlay
+        +MenuItem mnItemFecharDir
+        +TextArea taMusicas
+        +TextArea taDiretorio
+        +TextArea taPlaylists
+        +Slider sAndamentoMusica
+        +void setTADir()
+        +void setTAPlaylists()
+        +void escreveDirsTxt()
+        +void setVisibilites()
+        +void setNome(String s)
+        +void medStart(String s)
+        +void escreveMusicasTxt()
+        +void escrevePlaylistsTxt()
+        +void setLoginVip(String s)
+        +void setTAMusicas(int flag)
+        +void parar(MouseEvent event)
+        +void tocar(MouseEvent event)
+        +void pausar(MouseEvent event)
+        +void sobre(ActionEvent event)
+        +void setTipoUsuario(String s)
+        +void remDir(ActionEvent event)
+        +void remMus(ActionEvent event)
+        +void addDir(ActionEvent event)
+        +void setMusicasTitle(String s)
+        +void abrirDir(ActionEvent event)
+        +void fecharDir(ActionEvent event)
+        +void addMusica(ActionEvent event)
+        +void setPlayerStage(Stage pStage)
+        +void sairPlayer(ActionEvent event)
+        +void addPlaylist(ActionEvent event)
+        +void remPlaylist(ActionEvent event)
+        +void escolhaMusica(MouseEvent event)
+        +void abrirPlaylist(ActionEvent event)
+    }
+
+    class AutenticacaoException{
+        +AutenticacaoException(String s)
+    }
+
+    class CampoVazioException{
+        +CampoVazioException(String s)
+    }
+
+    class IgualdadeSenhaInvalidaException{
+        +IgualdadeSenhaInvalidaException(String s)
+    }
+
+    class TamanhoSenhaInvalidaException{
+        +TamanhoSenhaInvalidaException(String s)
+    }
+
+    class TipoInvalidoException{
+        +TipoInvalidoException(String s)
+    }
+
+    class ValidacaoException{
+        +ValidacaoException(String s, Throwable cause)
+    }
+
+    class UsuarioDAO{
+        +ArrayList usuarios
+        +UsuarioDAO uDAO
+        +UsuarioDAO()
+        +int isIn(String login, String senha)
+        +void registrarUsuarios()
+        +void addUsuario(Usuario u)
+        +Usuario getUsuario(String login, String senha)
+        +UsuarioDAO getInstance()
+    }
+
+    class UsuarioVipDAO{
+        +ArrayList usuarios
+        +UsuarioVipDAO uvDAO
+        +UsuarioVipDAO()
+        +int isIn(String login, String senha)
+        +void registrarUsuariosVip()
+        +void addUsuarioVip(UsuarioVip uv)
+        +UsuarioVip getUsuarioVip(String login, String senha)
+        +UsuarioVipDAO getInstance()
+    }
+
+    class UsuarioVip{
+    }
