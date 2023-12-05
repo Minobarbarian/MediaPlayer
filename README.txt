@@ -1,4 +1,17 @@
 ==================================================================================
+=================================== CLONAR =======================================
+==================================================================================
+Para clonar o projeto do github para o teu Eclipse:
+
+Abra o Eclipse.
+Acesse: Window > Show View > Other > Git > Git Repositories
+Na Perspectiva que acabou de abrir selecione a opção "Clone a Git Repository".
+No Wizard que abriu, cole o link "https://github.com/Minobarbarian/MediaPlayer.git" no campo "URI:".
+Após isso: Next > Desmarque "master" > Next > Finish.
+Em seguida: File > Open Projects from fyle system... > Directory
+Selecione o projeto "ProjFinalJacpc" em C:\Users\nomeusuario\git\MediaPlayer
+
+==================================================================================
 =============================== AMBIENTALIZAÇÃO ==================================
 ==================================================================================
 Recomendo utilizar a versão 2022-3 do eclipse disponível em https://www.eclipse.org/downloads/packages/release.
